@@ -1,0 +1,2 @@
+# stickers
+Project for university
