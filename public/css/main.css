@@ -1,0 +1,29 @@
+.loginError{
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.home{
+    margin-top: 70px;
+    min-height: 400px;
+}
+
+.sticker{
+    height: 390px;
+    padding: 10px 40px 50px;
+    font-style: italic;
+}
+
+.sticker-default{
+}
+
+.sticker-green{
+    background: url("../images/stickers/green.png") no-repeat center center;
+    background-size: contain;
+    color: #080808;
+    text-shadow: 0px 1px 6px rgba(10, 10, 10, 0.9);
+ }

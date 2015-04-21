@@ -24,8 +24,8 @@
                     Извините, возникла ошибка, Запрашиваемая страница не найдена!
                 </div>
                 <div class="error-actions">
-                    <a href="<?= url('/home') ?>" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
-                        Домой </a><a href="/" class="btn btn-default btn-lg">На главную </a>
+                    <a href="<?= url('home') ?>" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                        Домой </a><a href="/" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelop"></span> На главную </a>
                 </div>
             </div>
         </div>

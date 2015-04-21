@@ -142,7 +142,7 @@ class DB
             }
         } catch (PDOException $e) {
             self::getInstance()->rollBack();
-            return $e->getMessage();
+            return false;
         }
     }//END OF public static function query()
 }

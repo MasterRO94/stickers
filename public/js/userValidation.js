@@ -10,5 +10,10 @@ $(function(){
     ;
 
 
+    if(location.hash == '#register'){
+        $('#registerModal').modal('show');
+    }
+
+
 
 });
